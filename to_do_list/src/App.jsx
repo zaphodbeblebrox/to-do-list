@@ -16,9 +16,7 @@ function App() {
     <div className="App">
       <h1 className='underline'>To Do List</h1>
       <AddTask tasks={tasks} setTasks={setTasks}/>
-      <FilterTasks />
       <ToDoItem tasks={tasks} setTasks={setTasks}/>
-
     </div>
   );
 }
